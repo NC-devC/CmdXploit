@@ -9,6 +9,6 @@ echo MsgBox message,0+64,"Hi." >>%vbs%
 
 start %vbs%
 
-timeout /t 1
+timeout /t 0.1
 
 del %vbs%
