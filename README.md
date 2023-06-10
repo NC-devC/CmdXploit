@@ -1,1 +1,1 @@
-You can execute any cool cmd code in java/lua
+You can execute any cool cmd code from github or any other service in java/lua/python
